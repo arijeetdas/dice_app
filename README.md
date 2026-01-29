@@ -8,23 +8,28 @@ A simple Dice Roller application built using Flutter.
 ## 📱 Supported Platforms
 - Android
 - Windows
+- Linux
 
 ## 📦 Downloads
 Pre-built binaries are available in the **Releases** section.
 
-## 🛠 Build for macOS / Linux
+## 🛠 Build for iOS / macOS
 
-Pre-built binaries for macOS and Linux are not provided.
-You can build them yourself:
+Pre-built binaries for iOS and macOS are not provided because they require Apple hardware.
+You can build them yourself using the source code:
 
 ### Requirements
+- macOS machine
 - Flutter SDK
 - Dart SDK
+- XCode installed
+- Apple Developer tools configured
 
 ### Steps
 ```bash
 git clone https://github.com/arijeetdas/dice_app.git
 cd dice_app
 flutter pub get
-flutter build macos
-flutter build linux
+flutter build ios
+flutter build macOS
+
