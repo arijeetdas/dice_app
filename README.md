@@ -1,16 +1,30 @@
-# dice_app
+# 🎲 Dice Roller App
 
-A new Flutter project.
+A simple Dice Roller application built using Flutter.
 
-## Getting Started
+## 📁 Project Name
+`dice_app`
 
-This project is a starting point for a Flutter application.
+## 📱 Supported Platforms
+- Android
+- Windows
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Downloads
+Pre-built binaries are available in the **Releases** section.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠 Build for macOS / Linux
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Pre-built binaries for macOS and Linux are not provided.
+You can build them yourself:
+
+### Requirements
+- Flutter SDK
+- Dart SDK
+
+### Steps
+```bash
+git clone https://github.com/arijeetdas/dice_app.git
+cd dice_app
+flutter pub get
+flutter build macos
+flutter build linux
